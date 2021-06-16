@@ -1,0 +1,13 @@
+.campany {
+  padding: 80px 0;
+}
+
+.campany-list {
+  width: 100%;
+  border-bottom: 1px solid #222;
+}
+
+.campany-info, .campany-detail {
+  border-top: 1px solid #222;
+  padding: 20px;
+}

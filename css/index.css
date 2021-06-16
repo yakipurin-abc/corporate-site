@@ -1,0 +1,189 @@
+.home-top {
+  height: 80vh;
+  background: url(../img/mv.png) center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.home-top-first-comment {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.home-top-second-comment {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.home-imagine {
+  color: #fff;
+  background-color: #222;
+  padding: 80px 0;
+}
+
+.home-imagine-second-comment {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+.home-service {
+  padding: 80px 0;
+}
+
+.home-service-ttl {
+  text-align: center;
+}
+
+.home-service-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.home-service-item{
+  width: 49%;
+  margin-top: 20px;
+  margin-right: calc(100% - (49% * 2));
+}
+
+.home-service-item:nth-child(2n){
+  margin-right: 0;
+}
+
+.home-service-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.home-service-btn {
+  margin: 40px auto 0;
+}
+
+.home-news {
+  color: #fff;
+  background-color: #222;
+  padding: 80px 0;
+}
+
+.home-news-top-ttl {
+  font-size: 30px;
+}
+
+.home-news-top a{
+  width: 160px;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.home-news-list {
+  margin-top: 20px;
+}
+
+
+
+.home-news-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-news-item-link {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.home-news-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.home-news-item-date {
+  margin-right: 10px;
+}
+
+.home-blog {
+  padding: 80px 0;
+}
+
+.home-blog-ttl {
+  text-align: center;
+}
+
+.home-blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home-blog-item {
+  width: 32%;
+  margin-right: calc((100% - (32% * 3)) / 2);
+}
+
+.home-blog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.home-blog-item-data {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.home-blog-item-comment {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.home-blog-btn {
+  margin: 40px auto 0;
+}
+
+.home-company-list {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 80px;
+}
+
+.home-company-item {
+  width: 50%;
+}
+
+.home-company-btn {
+  background-color: #ac021f;
+}
+
+.home-recruit-btn {
+  background-color: #222;
+}
+
+.company-common {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  line-height: 10;
+}
+
+@media screen and (max-width: 768px){
+  .home-service-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .home-blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
